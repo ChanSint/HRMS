@@ -1,0 +1,78 @@
+# Compiled files
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio & Rider
+.vs/
+.idea/
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.log
+*.csproj.user
+
+# NuGet
+*.nupkg
+project.lock.json
+.nuget/
+packages/
+!packages/repositories.config
+
+# Entity Framework
+migrations/
+
+# ASP.NET Specific
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+
+# Logs & Database
+logs/
+*.log
+*.bak
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Docker
+docker-compose.override.yml
+**/Dockerfile
+**/.dockerignore
+
+# Node.js dependencies (if using frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE-specific
+*.sln.cache
+*.sln.ide
+*.sln.iml
+
+# Temp files
+*.tmp
+*.swp
+*.swo
+*.swn
+
+# Secret files
+.env
+secrets.json

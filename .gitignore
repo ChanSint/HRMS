@@ -76,3 +76,5 @@ yarn-error.log
 # Secret files
 .env
 secrets.json
+
+.fake
